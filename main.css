@@ -1,0 +1,951 @@
+/* GLOBAL STYLES*/
+/* ------------------------------------------------- */
+
+*
+{
+  margin:0px;
+  padding: 0px;
+  box-sizing:border-box;
+ 
+}
+
+/* BODY & WRAPPER */
+/* ------------------------------------------------- */
+
+body 
+{
+  background-image: linear-gradient(#1D1D1D 40%, #607FEF, #f7dadc );
+}
+
+.wrapper
+{
+  max-width: 1280x;
+  margin:auto;
+}
+
+/* NAVIGATION BAR */
+/* ------------------------------------------------- */
+
+.navbar
+{
+  background-color: #607FEF;
+  height: 80px;
+
+  transition-delay: 0.05s;
+  transition-duration: 0.6s;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  align-content: center;
+  padding: 40px;
+  align-items: center;
+  
+  width: 100%;
+}
+
+.hamburger
+{
+  display: none !important;
+}
+
+.navbar a
+{
+  text-decoration: none;
+  font-size: 14px;
+  color: #f7dadc;
+  display: block;
+
+  font-family: obviously-extended, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+  transition-delay: 0.03s;
+  transition-duration: 0.7s;
+}
+
+.navbar a:hover
+{
+  text-decoration: underline;
+}
+
+.navbar a:active 
+{
+  text-decoration: underline;
+}
+
+.navbar img
+{
+  width: 60px;
+  
+}
+
+/* HERO SECTION */
+/* ------------------------------------------------- */
+
+.hero
+{
+  margin: 0px;
+  height: 780px;
+  
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+
+  background-image: url(home_images/heroimg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.hero a
+{
+  color:#f7dadc;
+  background-color: #607FEF;
+  border-radius: 100px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: obviously-extended, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+  transition-delay: 0.03s;
+  transition-duration: 0.7s;
+
+  padding-bottom: 8px;
+  width: 296px;
+  height: 77px;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+  
+}
+
+.hero a:hover
+{
+  -webkit-box-shadow:0px 0px 24px 1px rgba(96,127,239,1);
+  -moz-box-shadow: 0px 0px 24px 1px rgba(96,127,239,1);
+  box-shadow: 0px 0px 24px 1px rgba(96,127,239,1);
+
+  transform: scale(1.04);
+}
+
+.hero img
+{
+  width: 880px;
+  margin: 20px;
+  margin-top: 100px;
+}
+
+
+
+
+/* ARTIST LINEUP */
+/* ------------------------------------------------- */
+
+.lineuptitle
+{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.lineuptitle h1
+{
+  color: #f7dadc;
+  font-size: 45px;
+  margin-top: 200px;
+
+  font-family: obviously-extended, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.lineuptitle img
+{
+  margin-top: 50px;
+  height: 52px;
+}
+
+.lineup
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 60px;
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+
+.lineup p
+{
+  text-decoration: none;
+  font-size: 22pt;
+  color: #f7dadc;
+  line-height: 25px;
+  margin: 20px;
+
+  font-family: obviously-extended, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lineup a
+{
+  text-decoration: none;
+  font-size: 22pt;
+  color: #f7dadc;
+  line-height: 25px;
+  margin: 20px;
+
+  font-family: obviously-extended, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+  transition-duration: 0.7s;
+}
+
+.lineup a:hover
+{
+  transform: scale(1.08);
+}
+
+
+
+
+/* LOCATIONS */
+/* ------------------------------------------------- */
+
+.locations
+{
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.locationtitle h1
+{
+  color: #f7dadc;
+  font-size: 45px;
+  padding-top: 150px;
+  margin-bottom: 100px;
+  text-align: center;
+
+  font-family: obviously-extended, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.locations img
+{
+  margin: 70px;
+  width: 312pt;
+
+  transition-delay: 0.03s;
+  transition-duration: 0.7s;
+}
+
+.locations img:hover
+{
+  transform: scale(1.08);
+}
+
+/* ABOUT US */
+/* ------------------------------------------------- */
+
+.aboutus
+{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 40px;
+  text-align: center;
+  
+}
+
+.aboutus p
+{
+  font-family: obviously-extended, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+  margin: 30px;
+
+  color: #f7dadc; 
+  font-size: 20pt;
+}
+
+.aboutus img
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 52px;
+}
+
+/* TICKETS */
+/* ------------------------------------------------- */
+
+.tickettitle h1
+{
+  color: #f7dadc;
+  font-size: 45px;
+  padding-top: 150px;
+  margin-bottom: 100px;
+  text-align: center;
+
+  font-family: obviously-extended, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ticket
+{
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+
+  transition-delay: 0.03s;
+  transition-duration: 0.7s;
+}
+
+.ticket a 
+{
+  transition-delay: 0.03s;
+  transition-duration: 0.7s;
+}
+
+.ticket a:hover
+{
+  transform: scale(1.04) rotate(37deg);
+}
+
+.ticket img
+{
+  height: 316pt;
+}
+
+.ticketinfo
+{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+
+}
+
+.ticketinfo p
+{
+  padding-top: 100px;
+  text-align: center;
+  font-size: 14pt;
+  color: #f7dadc;
+
+  font-family: obviously-extended, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+  
+}
+
+.ticketinfo a
+{
+
+  color:#f7dadc;
+  background-color: #607FEF;
+  border-radius: 100px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: obviously-extended, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+  transition-delay: 0.03s;
+  transition-duration: 0.7s;
+
+  margin-top: 80px;
+  padding-bottom: 8px;
+  width: 367px;
+  height: 77px;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+  
+}
+
+.ticketinfo a:hover
+{
+  -webkit-box-shadow:0px 0px 24px 1px rgba(96,127,239,1);
+  -moz-box-shadow: 0px 0px 24px 1px rgba(96,127,239,1);
+  box-shadow: 0px 0px 24px 1px rgba(96,127,239,1);
+
+  transform: scale(1.04);
+}
+
+
+/* FOOTER */
+/* ------------------------------------------------- */
+
+.footer
+{
+  background-color: #607FEF;
+  height: 650px;
+  margin-top: 100px;
+  padding: 40px;
+}
+
+.socials
+{
+  display: flex;
+  justify-content:right;
+  margin-top: -100px;
+  margin-right: 80px;
+}
+
+.socials img:hover
+{
+  transform: scale(1.04);
+}
+
+.presentedby img
+{
+  width: 500px;
+  margin-left: 80px;
+}
+
+.socials img
+{
+  width: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+  
+  transition-delay: 0.03s;
+  transition-duration: 0.7s;
+}
+
+.textcontent p 
+{
+  text-align: center;
+
+  font-family: obviously-extended, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 30px;
+  color:#f7dadc;
+  font-size: 14pt;
+
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 120px;
+}
+
+.textcontent h3
+{
+  font-family: obviously-extended, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #f7dadc;
+  text-align: center;
+  font-size: 13pt;
+
+  padding-top: 110px;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+/* ARTIST PAGE */
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* ARTIST HERO */
+/* ------------------------------------------------- */
+
+.artisthero 
+{
+ background: url(artist_images/artist_hero-01.svg);
+ background-size: 2000px;
+ background-repeat: no-repeat;
+ background-position: center;
+ margin: 0px;
+}
+
+.artisthero h1
+{
+  color: #f7dadc;
+  font-size: 45px;
+
+  font-family: obviously-extended, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 200px;
+
+}
+
+
+/* ARTISTS LINEUP */
+/* ------------------------------------------------- */
+.Artists
+{
+  display: flex;
+  flex-direction: column;
+}
+.Artists a
+{
+  border: #f7dadc solid 4px;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #1D1D1D;
+  display: flex;
+  flex-direction: row; 
+  text-decoration: none;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+  transition-delay: 0.02s;
+  transition-duration: 0.3s;
+
+}
+
+.Artists a:hover
+{
+  transform: scale(1.04);
+  background-color: #f7dadc;
+ 
+  
+  -webkit-box-shadow:0px 0px 117px 31px rgba(247,218,220,0.61);
+  -moz-box-shadow: 0px 0px 117px 31px rgba(247,218,220,0.61);
+  box-shadow: 0px 0px 117px 31px rgba(247,218,220,0.61);
+
+}
+
+.Artists a:hover img
+{
+  transform: scale(1.05);
+  transform:translate(90%)
+
+}
+
+.text
+{
+  display: flex;
+  flex-direction: column; 
+  align-items: right;
+  justify-content:right;
+
+  margin-left: 70px;
+  
+}
+
+.artistprofile img
+{
+  border-radius: 100%;
+  width: 500px;
+  margin-right: none;
+
+  transition-delay: 0.02s;
+  transition-duration: 0.3s;
+}
+
+.artistprofile h1
+{
+  color: #f7dadc;
+  font-size: 30px;
+
+  font-family: obviously-extended, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+
+}
+
+.artistprofile h2
+{
+  color: #f7dadc;
+  font-size: 20px;
+
+  font-family: obviously-extended, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+
+  margin-top: 20px;
+
+}
+
+.artistprofile p
+{
+  font-family: obviously-extended, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+  color: #f7dadc; 
+  font-size: 15pt;
+
+  margin-top: 100px;
+}
+
+.sparkle
+{
+  display: flex;
+  justify-content: center;
+}
+
+.ticketinfo a
+{
+
+  color:#f7dadc;
+  background-color: #607FEF;
+  border-radius: 100px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: obviously-extended, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+  transition-delay: 0.03s;
+  transition-duration: 0.7s;
+
+  margin-top: 80px;
+  padding-bottom: 8px;
+  width: 367px;
+  height: 77px;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+  
+}
+
+.ticketinfo a:hover
+{
+  -webkit-box-shadow:0px 0px 24px 1px rgba(96,127,239,1);
+  -moz-box-shadow: 0px 0px 24px 1px rgba(96,127,239,1);
+  box-shadow: 0px 0px 24px 1px rgba(96,127,239,1);
+
+  transform: scale(1.04);
+}
+
+/* MOBILE CSS AND MEDIA QUERY */
+ /* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width:1280px){
+
+  /* MOBILE NAV BAR */
+  /* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+  .hamburger
+  {
+    display: block !important;
+    margin-bottom: 30px;
+  }
+
+  .hamburger img
+  {
+    width: 30px;
+  }
+
+  .navbar 
+  {
+    flex-direction: column;
+    height: 88px;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+
+  .active
+  {
+    height: 300px;
+  }
+
+
+/* MOBILE HOME HERO */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+  .hero
+  {
+    height: 70vw;
+  }
+
+  .hero a
+  {
+    
+    border-radius: 100px;
+    font-size: 1.8vw;
+
+    width: 34vw;
+    height: 8vw;
+    padding-top: 1vw;
+  }
+
+  .hero img
+  {
+    width: 70vw;
+    margin-top: 10vw;
+  }
+
+
+/* MOBILE HOME ARTIST LINEUP */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.lineuptitle h1
+{
+  font-size: 5vw;
+  margin-top: 20vw;
+}
+
+.lineuptitle img
+{
+  margin-top: 5vw;
+  height: 5vw;
+}
+
+.lineup
+{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 60px;
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+
+.lineup p
+{
+  text-decoration: none;
+  font-size: 3.5vw;
+  line-height: 10vw;
+  margin: 2.5vw;
+
+  display: none!important;
+}
+
+.lineup a
+{
+  font-size: 2vw;
+  line-height: 5vw;
+  margin: 2.5vw;
+  margin-bottom: 0vw;
+}
+
+
+/* MOBILE HOME LOCATIONS */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+.locationtitle h1
+{
+  font-size: 5vw;
+  margin-top: 0.5vw;
+}
+
+.locations img
+{
+  margin: 4.5vw;
+  margin-bottom: 2vw;
+  width: 22vw;
+}
+
+/* MOBILE HOME ABOUT US */
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.aboutus
+{
+  margin: 0px;
+}
+
+.aboutus p
+{
+  margin: 6vwpx;
+  font-size: 2vw;
+}
+
+.aboutus img
+{
+  margin-top: 5vw;
+  height: 5vw;
+}
+
+/* MOBILE HOME TICKET OPTIONS */
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.tickettitle h1
+{
+  font-size: 5vw;
+  margin-bottom: 10vw;
+  margin-top: 0px;
+  padding-top: 0px;
+
+}
+
+
+.ticket img
+{
+  height: 25vw;
+  margin-bottom: 0vw;
+}
+
+.ticketinfo p
+{
+ 
+  margin: 3vw;
+  font-size: 1.7vw;
+}
+
+.ticketinfo a
+{
+   
+  border-radius: 100px;
+  font-size: 1.8vw;
+
+  width: 34vw;
+  height: 8vw;
+  padding-top: 0vw;
+  margin-bottom: 20vw;
+
+}
+
+/* MOBILE FOOTER */
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.footer
+{
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vw;
+}
+
+.presentedby img
+{
+  width: 50vw;
+
+}
+
+.socials
+{
+  margin-right: 0vw;
+  margin-top: 10vw;
+  margin-bottom: 0vw;
+}
+
+.socials img
+{
+  width: 10vw;
+  margin-top: 0px;
+}
+
+.textcontent p 
+{
+  font-size: 2vw;
+  line-height: 3.5vw;
+  margin: 0.3vw;
+}
+
+.textcontent h3
+{
+
+  font-size: 2vw;
+  margin-top: 0vw;
+  margin-bottom: 4vw;
+
+}
+
+/* MOBILE ARTISTS HERO */
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.artisthero 
+{
+ background-size: 115%;
+ margin: none;
+}
+
+.artisthero h1
+{
+  font-size: 10vw;
+}
+
+/* MOBILE ARTISTS LINEUP */
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.Artists
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Artists a
+{
+  border-radius: 40px; 
+}
+
+.artistprofile
+{
+  min-height: 60px;
+  min-width: 60%;
+}
+
+.artistprofile img
+{
+  border-radius: 100%;
+  max-width: 80%;
+  max-height: 80%;
+
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.text
+{
+  display: flex;
+  justify-content: center;
+  align-items: left;
+ 
+}
+
+.artistprofile h1
+{
+  font-size: 3vw;
+  margin-top: 3vw;
+}
+
+.artistprofile h2
+{
+  font-size: 2vw;
+  margin-top: 3vw;
+}
+
+.artistprofile p
+{
+display: none;
+}
+
+.Artists a:hover img
+{
+  transform: scale(0);
+  transform:translate(0)
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+}
